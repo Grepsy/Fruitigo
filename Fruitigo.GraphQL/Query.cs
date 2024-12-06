@@ -7,7 +7,6 @@ namespace Fruitigo.GraphQL;
 [QueryType]
 public static class Query
 {
-    //[UsePaging]
     [UseProjection]
     [UseFiltering]
     [UseSorting]
