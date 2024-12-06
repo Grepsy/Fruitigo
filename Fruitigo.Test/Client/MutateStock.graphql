@@ -1,0 +1,14 @@
+mutation Modify {
+  addStock(input: { id: "d8e2d1c1-a3b7-471b-b17f-083231852107", quantity: 10 }) {
+    fruitStock {
+      id
+      quantityAvailable
+    }
+  }
+  removeStock(input: { id: "d8e2d1c1-a3b7-471b-b17f-083231852107", quantity: 5 }) {
+    fruitStock {
+      id
+      quantityAvailable
+    }
+  }
+}

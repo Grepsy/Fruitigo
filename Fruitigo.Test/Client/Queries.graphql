@@ -1,0 +1,17 @@
+query Stock {
+  stock {
+    id
+    type
+    expiryDate
+    marginPrice
+    originCountry
+    orderPrice
+    quantityAvailable
+    stockMutations {
+      fruitStockId
+      quantity
+      timestamp
+    }
+    quotePrice
+  }
+}
